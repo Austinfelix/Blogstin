@@ -1,0 +1,67 @@
+.recipe-bdy{
+	background-color: #343a40;
+	margin:12px;
+	padding:12px;
+	border:2px solid black;
+	border-radius:15px;
+	box-shadow: 5px 5px black;
+	color:white;
+}
+.recipe-bdy a{
+	text-decoration: none;
+	color:white;
+}
+.recipe-bdy a:hover{
+	color:grey;
+}
+.recipe-mbdy{
+	background-color: #343a40;
+	margin:12px;
+	padding:50px;
+	border:2px solid black;
+	border-radius:15px;
+	box-shadow: 5px 5px black;
+	color:white;
+	text-align: center;
+}
+
+
+
+
+/*footer code*/
+footer{
+	position:relative;
+	top:120px;
+	color:white;
+	width:100%;
+	font-size:25px;
+}
+footer{
+	background-color: #343a40;
+	color:white;
+}
+.foot-head{
+	font-size:50px;
+    position: relative;
+    left:70px;
+    top:6px;
+}
+.foot-bdy{
+	font-size:18px;
+	text-align: center;
+	padding-top: 8px;
+}
+.footer a{
+	text-decoration: none;
+	color:white;
+}
+.footer a:hover{
+	color:grey;
+}
+.credit{
+	font-size: 20px;
+	line-height: 20px;
+	text-align: center;
+	padding-top:20px;
+	padding-bottom:5px;
+}

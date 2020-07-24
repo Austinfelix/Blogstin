@@ -1,0 +1,93 @@
+.dish-head{
+	position: relative;
+	left:40px;
+	margin-bottom: 10px;
+}
+.recipe-bdy{
+	background-color: #343a40;
+	margin:12px;
+	padding:12px;
+	border:2px solid black;
+	border-radius:15px;
+	box-shadow: 5px 5px black;
+	color:white;
+}
+.recipe-bdy a{
+	text-decoration: none;
+	color:white;
+}
+.recipe-bdy a:hover{
+	color:grey;
+}
+.Introduction{
+	padding:10px;
+  border:2px solid white;
+  border-radius: 15px;
+}
+.image img{
+	border-radius:15px;
+	position:relative;
+	right:10px;
+}
+.ingredients{
+	padding:10px;
+  border:2px solid white;
+  border-radius: 15px;
+  margin-top:5px;
+}
+.measure{
+	text-align: center;
+	colour:red;
+}
+.garmi{
+	margin:10px;
+	padding:10px;
+  border:2px dotted white;
+  border-radius: 15px;
+}
+.Instructions{
+	padding:10px;
+  border:2px solid white;
+  border-radius: 15px;
+  margin-top:5px;
+}
+.align{
+	text-align: center;
+}
+
+/*footer code*/
+footer{
+	color:white;
+	width:100%;
+	font-size:25px;
+}
+footer{
+	background-color: #343a40;
+	color:white;
+}
+.footer a{
+	text-decoration: none;
+	color:white;
+}
+.footer a:hover{
+	color:grey;
+	}
+.foot-head{
+	font-size:50px;
+    position: relative;
+    left:70px;
+    top:6px;
+}
+.foot-bdy{
+	font-size:18px;
+	text-align: center;
+	padding-top: 8px;
+}
+
+.credit{
+	font-size: 20px;
+	line-height: 20px;
+	text-align: center;
+	padding-top:20px;
+	padding-bottom:5px;
+}
