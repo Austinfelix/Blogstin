@@ -12,7 +12,7 @@
      <!--font-->
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@600&display=swap" rel="stylesheet">
     <!--css-->
-    <link rel="stylesheet" type="text/css" href="blogstin.about.css">
+    <link rel="stylesheet" type="text/css" href="butterchicken.css">
   </head>
   <body>
 <!--navbar-->
@@ -39,8 +39,9 @@
   </div>
 </nav>
 <section class="main-page">
-<div class="row">
-        <div class="col-sm-3 ">
+<div class="row justify-content-around">
+      <div class="col-sm-3 col-md-3 ">
+          <div class="recipe-bdy">
          <h2>My Recipes</h2>
           <p>Check out my favourite<br />
           Recipes and tell me what do<br />
@@ -50,11 +51,14 @@
             <li><a href="butter-chicken.html">Butter Chicken</a></li>
             <li><a href="idli-chilly.html">Idli Chilli</a></li>
             </ul>
-        </div>
-       <div class="col-sm-9">
-  <h1 align="center"><u>Butter Chicken</u></h1>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQyiU7sQ0HcAuSl0inlNVHxzqF9BCIwmjW8pntwJELSARv8hBzR&amp;usqp=CAU" height="420" width="600" style="float:right" alt="bowl of delicious butter chicken" border="2">
-    <div class="introduction">
+          </div>
+      </div>
+       <div class="col-sm-7 col-md-8">
+        <div class="recipe-bdy">
+  <h2 class="dish-head">Butter Chicken</h2>
+<div class="row justify-content-around">
+  <div class=" col-md-6 col-sm-6">
+     <div class="introduction">
       <p class="container">The most famous dish all over the world for all Indians is butter chicken,<br>
          apart from being everyones usual at the family diner it is also very delicious<br>
          and sort of easy to make if you follow the right steps!<br>
@@ -63,17 +67,25 @@
            their speacialty to it for their restaurants.<br>
            So lets see how to prepare this great dish!</p>
          </div>
-         <div class="ingredients container">
-           <h1><u>Ingredients:-</u></h1>
-           <table border="1">
-             <thead>
+         </div>
+  
+  <div class="image col-md-5 col-sm-5">
+    <img class="img-responsive img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQyiU7sQ0HcAuSl0inlNVHxzqF9BCIwmjW8pntwJELSARv8hBzR&amp;usqp=CAU" alt="bowl of delicious butter chicken"/>
+         
+         </div>
+   <div class="row justify-content-around">
+    <div class="col-md-6 col-sm-6">
+        <div class="ingredients">
+           <h1>Ingredients:-</h1>
+           <table>
+             <thead class="align">
                <tr>
                  <th>Sr. No.</th>
                  <th>Name</th>
                  <th>Measurement</th>
                  </tr>
                </thead>
-               <tbody>
+               <tbody class="align">
 
                <tr>
                  <th>1</th>
@@ -135,6 +147,21 @@
                    <td>1.5 cup</td>
                  </tr>
                <tr>
+                </tbody>
+                     </table>
+            </div>
+    </div>
+    <div class="col-sm-6 col-sm-6">
+          <div class="ingredients box-align">
+                   <table>
+             <thead>
+               <tr>
+                 <th>Sr. No.</th>
+                 <th>Name</th>
+                 <th>Measurement</th>
+                 </tr>
+               </thead>
+               <tbody>
                    <th>12</th>
                    <td>Butter</td>
                    <td>As <abbr class="required">reqd.</abbr></td>
@@ -189,10 +216,13 @@
                      </tr>
                        </tbody>
                      </table>
-                   </div>
+              </div>
+      </div>
+    </div>
+                 
 
-  <div class="instructions container">
-    <h1><u>Instruction:-</u></h1>
+  <div class="instructions">
+    <h1>Instruction:-</h1>
       <ol>
       <li>Marinate the chicken along with curd,pepper,salt &amp; red chilli powder</li>
       <li>Keep aside the marnated chicken for at least 30 minutes.</li>
@@ -218,25 +248,35 @@
   </ol>
 </div>
 </div>
-<footer>
+</section>
+
+
+<!--footer-->
+<footer class="footer">
   <div class="row">
-    <div class="col-sm-4">
-  <h1>Blogstin</h1>
+    <div class="col-md-4">
+  <a href="blogstin.about.html"><h1 class="foot-head">Blogstin</h1></a>
     </div>
-    <div class="col-sm-4">
-      <p>Check Out</p>
+    <div class="col-md-4">
+      <div class="foot-bdy">
+      <h5>Do Check Out...</h5>
       <a href="blogstin.blogs.html">My Blogs</a><br>
       <a href="blogstin.recipes.html">My Recipes</a>
     </div>
-    <div class="col-sm-4">
-      <p>Contact</p>
-      <p>austinfelix812@gmail.com</p>
+    </div>
+    <div class="col-md-4">
+      <div class="foot-bdy">
+      <h5>Contact</h5>
+      <p>Austin Felix<br>
+      austinfelix812@gmail.com</p>
+    </div>
     </div>
   </div>
+  <div  class="credit">
   <p>Copyright &copy; 2020 Blogstin . All Rights Reserved</p>
   <p>Keep Smiling &#128578;</p>
+</div>
 </footer>
-
          <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
