@@ -1,0 +1,144 @@
+body{
+	background-color: #ddd;
+}
+.main-head{
+	text-align:center;
+	font-size: 50px;
+	background-color: #343a40;
+	color: white;
+	border:2px solid black;
+	border-radius:37px;
+	padding:50px;
+	padding-right: 2px;
+	padding-left: 2px;
+	margin: 30px;
+	box-shadow: 10px 10px black;
+	min-width:30%;
+	height:auto;
+	text-overflow:inherit;
+	text-align: center;
+}
+
+/*Check out code*/
+.check-heading{
+  text-align: center;
+  font-weight: bold;
+  font-size:38px;
+  margin:20px;
+}
+.check-part{
+	background-color: #343a40;
+	color:white;
+	margin:15px;
+	padding:12px;
+	padding-bottom: 20px;
+	border:2px solid black;
+	border-radius:15px;
+	box-shadow:5px 5px black;
+
+}
+.recipe-logo{
+	position:relative;
+	left:10px;
+}
+.chk-body{
+	text-align: center;
+}
+.chk-bold{
+	font-weight: bold;
+	font-size: 20px;
+}
+.container button{
+	
+	background: transparent;
+	border-radius:15px;
+}
+.container a{
+
+	text-decoration: none;
+	color:white;
+}
+/*About me code*/
+.abt-head{
+	text-align: center;
+	padding:20px;
+	font-size:38px;
+	font-weight: bold;
+
+}
+.abt-body{
+	background-color: #343a40;
+	color:white;
+	margin:15px;
+	padding:12px;
+	border:2px solid black;
+	border-radius:15px;
+	box-shadow:5px 5px black;  
+}
+.abt-img{
+	position: relative;
+	top:12px;
+	border:2px solid black;
+	border-radius:15px;
+	box-shadow: 5px 5px black;
+}
+/*also code*/
+.also-bdy h2{
+   text-align: center;
+	padding:10px;
+	font-size:38px;
+	font-weight: bold;
+}
+.also-bdy p{
+	text-align: center;
+	font-size:20px;
+}
+.also-bdy button{
+	background: transparent;
+	border-radius:15px;
+	position:relative;
+	left:100px;
+	margin-bottom: 20px;
+}
+.insta-logo{
+	margin: 20px;
+	position: relative;
+	left:65px;
+
+}
+/*footer code*/
+footer{
+	color:white;
+	width:100%;
+	font-size:25px;
+}
+footer{
+	background-color: #343a40;
+	color:white;
+}
+.footer a{
+	text-decoration: none;
+	color:white;
+}
+.footer a:hover{
+	color:grey;
+}
+.foot-head{
+	font-size:50px;
+    position: relative;
+    left:70px;
+    top:6px;
+}
+.foot-bdy{
+	font-size:18px;
+	text-align: center;
+	padding-top: 8px;
+}
+
+.credit{
+	font-size: 20px;
+	line-height: 20px;
+	text-align: center;
+	padding-top:20px;
+	padding-bottom:5px;
+}
